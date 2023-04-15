@@ -18,7 +18,7 @@ function HanSolo() {
   return (
     <div className='container'>
       <button onClick={toggleDidHanSoloShootFirst}>Toggle Shoot</button>  
-      <h2>Did Han Solo shoot first? {didHanSoloShootFirst ? "Yes!" : "No!"}</h2>
+      <h4>Did Han Solo shoot first? {didHanSoloShootFirst ? "Yes!" : "No!"}</h4>
       <img src={didHanSoloShootFirst ? HanShotFirst : HanShotSecond} />
       <p>{didHanSoloShootFirst ? paragraphHanShotFirst : paragraphHanShotSecond}</p>
     </div>
